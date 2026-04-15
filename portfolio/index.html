@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create by Ty — UX/UI Designer</title>
+  <meta name="description" content="UX/UI Designer crafting purposeful digital experiences. Specializing in landing pages, Shopify design, and product design for sports and ecommerce brands.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="animations.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <a href="#hero" class="nav-logo">CREATE BY TY</a>
+    <div class="nav-links">
+      <a href="#work" class="nav-link" data-reveal-delay="1">Work</a>
+      <a href="#about" class="nav-link" data-reveal-delay="2">About</a>
+      <a href="#services" class="nav-link" data-reveal-delay="3">Services</a>
+      <a href="#contact" class="nav-link" data-reveal-delay="4">Contact</a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener" class="nav-link nav-link--icon" data-reveal-delay="5" aria-label="LinkedIn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+          <rect x="2" y="9" width="4" height="12"/>
+          <circle cx="4" cy="4" r="2"/>
+        </svg>
+      </a>
+      <a href="mailto:manueltyron@gmail.com" class="nav-link nav-link--icon" data-reveal-delay="6" aria-label="Email">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="4" width="20" height="16" rx="2"/>
+          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+        </svg>
+      </a>
+    </div>
+    <button class="nav-hamburger" aria-label="Open menu">
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#work" class="mobile-menu-link">Work</a>
+    <a href="#about" class="mobile-menu-link">About</a>
+    <a href="#services" class="mobile-menu-link">Services</a>
+    <a href="#contact" class="mobile-menu-link">Contact</a>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-content" data-parallax="0.3">
+      <h1 class="hero-title">
+        <span class="line"><span class="word">Design</span></span>
+        <span class="line"><span class="word">tells</span></span>
+        <span class="line"><span class="word">stories.</span></span>
+      </h1>
+      <p class="hero-subtitle">UX/UI Designer</p>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="about-inner">
+      <div class="about-intro">
+        <span class="section-label" data-reveal="fade-up">About</span>
+        <p class="about-statement" data-reveal="fade-up" data-reveal-delay="1">
+          I didn't start in design. I started in motion — on the field, in the classroom, behind the camera. Every role taught me how people move, learn, and feel. Design is where all of it converges.
+        </p>
+      </div>
+      <div class="about-roles">
+        <div class="role-card" data-reveal="slide-left" data-reveal-delay="1">
+          <span class="role-number">01</span>
+          <h3 class="role-title">Athlete</h3>
+          <p class="role-connection">Discipline. Iteration. Performing when it counts.</p>
+        </div>
+        <div class="role-card" data-reveal="slide-left" data-reveal-delay="2">
+          <span class="role-number">02</span>
+          <h3 class="role-title">Coach</h3>
+          <p class="role-connection">Breaking complexity into clarity.</p>
+        </div>
+        <div class="role-card" data-reveal="slide-left" data-reveal-delay="3">
+          <span class="role-number">03</span>
+          <h3 class="role-title">Therapist</h3>
+          <p class="role-connection">Understanding how people think and feel.</p>
+        </div>
+        <div class="role-card" data-reveal="slide-left" data-reveal-delay="4">
+          <span class="role-number">04</span>
+          <h3 class="role-title">Editor</h3>
+          <p class="role-connection">Pacing, rhythm, knowing what to cut.</p>
+        </div>
+        <div class="role-card" data-reveal="slide-left" data-reveal-delay="5">
+          <span class="role-number">05</span>
+          <h3 class="role-title">Founder</h3>
+          <p class="role-connection">Shipping real products under real constraints.</p>
+        </div>
+        <div class="role-card role-card--designer" data-reveal="scale" data-reveal-delay="6">
+          <span class="role-number">06</span>
+          <h3 class="role-title">Designer</h3>
+          <p class="role-connection">Where all of it converges.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section class="work" id="work">
+    <span class="section-label" data-reveal="fade-up">Selected Work</span>
+    <div class="project-grid">
+      <a href="case-study.html" class="project-card project-card--wide" data-reveal="fade-up" data-reveal-delay="1" data-cursor="view">
+        <div class="project-image" style="background-color: #E7DACA;"></div>
+        <div class="project-info">
+          <span class="project-category">UX/UI Design</span>
+          <h3 class="project-title">Project Name</h3>
+          <p class="project-desc">Brief description of the project and its impact.</p>
+        </div>
+      </a>
+      <a href="case-study.html" class="project-card" data-reveal="fade-up" data-reveal-delay="2" data-cursor="view">
+        <div class="project-image" style="background-color: #d4c5b3;"></div>
+        <div class="project-info">
+          <span class="project-category">Landing Page</span>
+          <h3 class="project-title">Project Name</h3>
+          <p class="project-desc">Brief description of the project.</p>
+        </div>
+      </a>
+      <a href="case-study.html" class="project-card" data-reveal="fade-up" data-reveal-delay="3" data-cursor="view">
+        <div class="project-image" style="background-color: #c9b99a;"></div>
+        <div class="project-info">
+          <span class="project-category">Shopify Design</span>
+          <h3 class="project-title">Project Name</h3>
+          <p class="project-desc">Brief description of the project.</p>
+        </div>
+      </a>
+      <a href="case-study.html" class="project-card project-card--wide" data-reveal="fade-up" data-reveal-delay="4" data-cursor="view">
+        <div class="project-image" style="background-color: #bfb09c;"></div>
+        <div class="project-info">
+          <span class="project-category">Product Design</span>
+          <h3 class="project-title">Project Name</h3>
+          <p class="project-desc">Brief description of the project and its outcome.</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <span class="section-label section-label--light" data-reveal="fade-up">Services</span>
+    <p class="services-intro" data-reveal="fade-up" data-reveal-delay="1">Fast, clean, purposeful design for brands that move.</p>
+    <div class="services-list">
+      <div class="service-item" data-reveal="slide-left" data-reveal-delay="1">
+        <span class="service-number">01</span>
+        <div class="service-content">
+          <h3 class="service-title">Landing Pages</h3>
+          <p class="service-desc">High-conversion landing pages for sports brands and ecommerce. Fast turnaround, built to perform.</p>
+        </div>
+        <ul class="service-tags">
+          <li>Sports</li>
+          <li>Ecommerce</li>
+          <li>Conversion</li>
+        </ul>
+      </div>
+      <div class="service-item" data-reveal="slide-left" data-reveal-delay="2">
+        <span class="service-number">02</span>
+        <div class="service-content">
+          <h3 class="service-title">Shopify Design</h3>
+          <p class="service-desc">Custom Shopify templates and storefronts that look premium without the premium timeline.</p>
+        </div>
+        <ul class="service-tags">
+          <li>Shopify</li>
+          <li>Templates</li>
+          <li>Storefront</li>
+        </ul>
+      </div>
+      <div class="service-item" data-reveal="slide-left" data-reveal-delay="3">
+        <span class="service-number">03</span>
+        <div class="service-content">
+          <h3 class="service-title">UX/UI Design</h3>
+          <p class="service-desc">End-to-end product design — research, wireframes, prototypes, and polished interfaces.</p>
+        </div>
+        <ul class="service-tags">
+          <li>Product</li>
+          <li>Prototyping</li>
+          <li>Research</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials" id="testimonials">
+    <span class="section-label" data-reveal="fade-up">Kind Words</span>
+    <div class="testimonial-track">
+      <blockquote class="testimonial" data-reveal="scale" data-reveal-delay="1">
+        <p>&ldquo;Tyron brought a level of empathy and intentionality to our product that completely shifted how users engage with it. He doesn't just design — he listens.&rdquo;</p>
+        <cite>
+          <span class="cite-name">Client Name</span>
+          <span class="cite-role">Role, Company</span>
+        </cite>
+      </blockquote>
+      <blockquote class="testimonial" data-reveal="scale" data-reveal-delay="2">
+        <p>&ldquo;Fast, thoughtful, and always thinking about the person on the other side of the screen. Working with Tyron felt like a real partnership.&rdquo;</p>
+        <cite>
+          <span class="cite-name">Client Name</span>
+          <span class="cite-role">Role, Company</span>
+        </cite>
+      </blockquote>
+      <blockquote class="testimonial" data-reveal="scale" data-reveal-delay="3">
+        <p>&ldquo;He turned our vision into something we could actually see and feel. The design spoke before we had to explain anything.&rdquo;</p>
+        <cite>
+          <span class="cite-name">Client Name</span>
+          <span class="cite-role">Role, Company</span>
+        </cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="contact-content">
+      <h2 class="contact-heading">
+        <span class="line"><span class="word">Let's</span></span>
+        <span class="line"><span class="word">build</span></span>
+        <span class="line"><span class="word">something.</span></span>
+      </h2>
+      <div class="contact-links">
+        <a href="mailto:manueltyron@gmail.com" class="contact-link">
+          <span>manueltyron@gmail.com</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M7 17L17 7"/>
+            <path d="M7 7h10v10"/>
+          </svg>
+        </a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener" class="contact-link">
+          <span>LinkedIn</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M7 17L17 7"/>
+            <path d="M7 7h10v10"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <span>&copy; 2026 Create by Ty</span>
+    <a href="#hero" class="footer-top">Back to top</a>
+  </footer>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor">
+    <div class="cursor-dot"></div>
+    <div class="cursor-label">View</div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

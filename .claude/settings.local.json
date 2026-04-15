@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(start *)",
+      "Bash(cmd.exe *)",
+      "Bash(explorer.exe *)",
+      "WebFetch(domain:brightswimwear.com)",
+      "Bash(powershell *)",
+      "Bash(gh auth *)",
+      "Bash(gh repo *)",
+      "Bash(git config *)"
+    ]
+  }
+}
