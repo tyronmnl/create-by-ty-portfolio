@@ -1,0 +1,2 @@
+- [Tyron — UX/UI Designer](user_profile.md) — UX/UI designer building websites & apps, no coding background, strong design skills
+- [Collaboration style](feedback_collaboration_style.md) — No fluff, no vibe coding. Quality + speed. He directs, Claude builds.
